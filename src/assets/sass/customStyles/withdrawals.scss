@@ -1,0 +1,9 @@
+.bg-hover{
+    padding: 10px 7px 12px 7px;
+    border-radius: 40px;
+    transition: all 0.8s; 
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(240, 240, 240);
+    }
+}

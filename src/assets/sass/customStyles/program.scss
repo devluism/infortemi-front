@@ -1,0 +1,25 @@
+/* =========== RESPONSIVE =========== */
+@media (max-width: 750px) {
+  .card-blue {
+    margin: 21px 0px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .card-blue {
+    margin: 21px 0px !important;
+  }
+  .padding-reponsive-none {
+    padding: 0 !important;
+  }
+  .el-carousel__item--card {
+    width: 58%;
+  }
+}
+@media (max-width: 767px) {
+  .is-active {
+    transform: translateX(37.75px) scale(1) !important;
+  }
+  .el-carousel__item--card {
+    width: 80% !important;
+  }
+}
